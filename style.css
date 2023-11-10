@@ -1,0 +1,25 @@
+:root{
+    --fuenteTitulo: 'Abril Fatface', serif;
+    --fuenteParrafo: 'Space Grotesk', sans-serif; 
+
+    --primario:#784d3c;
+    --blanco:#ffffff;
+    --negro:#000000;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--fuenteParrafo);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/* GLOBALES */
