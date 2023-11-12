@@ -23,3 +23,54 @@ body{
 }
 
 /* GLOBALES */
+
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4{
+    font-family: var(--fuenteTitulo);
+}
+
+h1{
+    font-size: 4.8rem
+}
+h2{
+    font-size: 4rem
+}
+h3{
+    font-size: 3.2rem
+}
+h4{
+    font-size: 2.8rem
+}
+
+img{
+    max-width: 100%;
+}
+
+.no-margin{
+    margin: 0;
+}
+.no-padding{
+    padding: 0;
+}
+
+.center-text{
+    text-align: center;
+}
+
+/* HEADER */
+
+.header{
+    background-image: url(/img/banner.jpg);
+    height: 60rem;
+    background-size: none;
+    background-size: cover;
+}
