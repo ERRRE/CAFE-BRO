@@ -5,6 +5,8 @@
     --primario:#784d3c;
     --blanco:#ffffff;
     --negro:#000000;
+    --gris:#e1e1e1;
+
 }
 
 html{
@@ -121,4 +123,46 @@ img{
         display: flex;
         gap: 2rem;
     }
+}
+
+/* BLOG */
+
+@media (max-width: 768px){
+    .contenido-principal{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+
+.entrada{
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--gris);
+
+}
+.entrada:last-of-type{
+    border: none;
+
+}
+
+.boton{
+    color: var(--blanco);
+    display: block;
+    text-align: center;
+    font-family: var(--fuenteParrafo);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    margin-bottom: 2rem;
+
+}
+@media (min-width: 768px){
+    .boton{
+        display: inline-block;
+    }
+}
+
+.boton--primario{
+    background-color: var(--negro);   
 }
