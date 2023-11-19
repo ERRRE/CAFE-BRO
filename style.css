@@ -127,7 +127,7 @@ img{
 
 /* BLOG */
 
-@media (max-width: 768px){
+@media (min-width: 768px){
     .contenido-principal{
         display:grid;
         grid-template-columns: 2fr 1fr;
@@ -164,5 +164,30 @@ img{
 }
 
 .boton--primario{
-    background-color: var(--negro);   
+    background-color: var(--negro); 
+    border-radius: 1rem;  
+}
+.boton--secundario{
+    background-color: var(--primario); 
+    border-radius: 1rem;  
+}
+
+.cursos{
+    list-style: none;
+}
+
+.whidget-curso{
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--gris);
+}
+.whidget-curso:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+.whidget-curso-leable{
+    font-family: var(--fuenteParrafo);
+    font-weight: bold;
+}
+.whidget-curso-info{
+    font-weight: normal;
 }
