@@ -177,11 +177,11 @@ img{
     list-style: none;
 }
 
-.whidget-curso{
+.whidget-curso, .cursos-talleres{
     margin-bottom: 2rem;
     border-bottom: 1px solid var(--gris);
 }
-.whidget-curso:last-of-type{
+.whidget-curso, .cursos-talleres:last-of-type{
     border: none;
     margin-bottom: 0;
 }
@@ -205,5 +205,18 @@ img{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 4rem;
+    }
+}
+
+/* CURSOS Y TALLERES */
+
+@media (min-width: 768px){
+    .cursos-talleres{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+    .cursos-talleres__imagen{
+        margin-bottom: 1.4rem;
     }
 }
