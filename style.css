@@ -166,7 +166,9 @@ img{
 
 .boton--primario{
     background-color: var(--negro); 
-    border-radius: 1rem;  
+    border-radius: 1rem; 
+    border: none;
+    cursor: pointer; 
 }
 .boton--secundario{
     background-color: var(--primario); 
@@ -231,4 +233,14 @@ img{
     .contenedor-blog {
         padding: 2rem;
     }
+}
+
+/* CONTACTO */
+
+.contacto__imagen{
+    background-image: url(/img/contacto.jpg );
+    height: 40rem;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
 }
